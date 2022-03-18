@@ -41,7 +41,7 @@ export default {
 };
 </script>
 <style>
-#nav {
+#nav, nav.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ export default {
   outline: none;
   display: none;
 }
-#nav {
+#nav, nav.navbar {
   padding: 30px;
 }
 #nav .router-link-exact-active:not(.logout) {

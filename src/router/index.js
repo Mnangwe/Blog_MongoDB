@@ -1,12 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Landing from '../views/Landing.vue'
 import NotFound from '../views/Home.vue'
 
 
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    name: 'Landing',
+    component: Landing
   },
   {
     path: '/home',
